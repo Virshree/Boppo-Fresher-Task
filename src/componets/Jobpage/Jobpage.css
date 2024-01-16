@@ -1,0 +1,71 @@
+.heading{
+    display: inline-flex;
+    border: 1px solid black;
+  margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 250px;
+    height: 380px;
+}
+.parent-container{
+  border: 1px solid gray;
+box-shadow: 5px 5px lightgray;
+  width: 70%;
+  height: 120px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  padding: 5px;
+  justify-content:space-between;
+  align-items: center;
+}
+.img-logo {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  
+   
+}
+.title-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+
+}
+.company-name{
+font-size: 22px;
+
+
+}
+.job-title{
+font-size: 14px;
+max-width: 215px;
+word-wrap: break-word;
+}
+.skill-chip{
+  background-color: #d9ece7;
+  font-size: 12px;
+  border-radius: 5%;
+  padding: 12px;
+  margin: 5px;
+  font-weight: bold;
+  color: #87c0b1;
+}
+.skill-chip:hover{
+  background-color: #80dac2;
+  color: white;
+  cursor: pointer;
+  
+}
+.image-container{
+  display: flex;
+  
+}
+.skills-container{
+  /* margin-left: 420px; */
+  /* justify-content: flex-end; */
+  float: right;
+  /* align-items: flex-end; */
+}
