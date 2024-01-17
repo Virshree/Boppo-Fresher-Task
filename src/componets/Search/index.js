@@ -1,25 +1,40 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import'./index.css';
+import Jobpage from "../Jobpage/Jobpage";
 
 function Search() {
-  const [titlevalue, setTitleValue] = useState();
+  const [titlevalue, setTitleValue] = useState('');
+
   function handleSearch(e) {
     setTitleValue(e.target.value);
   }
+  function handleClear(){
+    setTitleValue('');
+  }
+
+  // useEffect(()=>{
+  //   //filtered skills based on title value
+
+  //   const filteredSkills=skill.filter((s)=>s.toLowerCase().includes(titlevalue).toLowerCase())
+  //   setSearchResult(filteredSkills);
+  // },[skill,titlevalue]);
   return (
-    <div>
-      <div style={{ display: "block" }}>
+    <div className="search-parent">
+      <div className="search-container">
+   
         <input
           type="text"
           value={titlevalue}
           onChange={handleSearch}
-          placeholder="Enter title"
-          style={{ margin: "auto", marginTop: "20px" }}
+      
+          className="input-container"
         />
-        <button style={{ backgroundColor: "greenyellow", color: "black" }}>
-          Search
-        </button>
+           {/* <a href="#" className="reset-container">Clear</a> */}
+           <span className="reset-container" onClick={()=>handleClear()}>Clear</span>
       </div>
+      <Jobpage />
     </div>
+    
   );
 }
 

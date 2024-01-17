@@ -1,3 +1,8 @@
+body{
+  background-color: rgb(217, 240, 246);
+  height: 500px;
+  margin: 0px;
+}
 .heading{
     display: inline-flex;
     border: 1px solid black;
@@ -8,8 +13,8 @@
     height: 380px;
 }
 .parent-container{
-  border: 1px solid gray;
-box-shadow: 5px 5px lightgray;
+  /* border: 1px solid gray; */
+box-shadow: 0px 2px lightgray;
   width: 70%;
   height: 120px;
   margin: auto;
@@ -18,7 +23,11 @@ box-shadow: 5px 5px lightgray;
   display: flex;
   padding: 5px;
   justify-content:space-between;
+  border-radius: 8px;
+  border-left: 6px solid rgb(88, 194, 212);
   align-items: center;
+  
+  background-color: rgb(248, 255, 255);
 }
 .img-logo {
   border-radius: 50%;
@@ -46,7 +55,7 @@ word-wrap: break-word;
 }
 .skill-chip{
   background-color: #d9ece7;
-  font-size: 12px;
+  font-size: 15px;
   border-radius: 5%;
   padding: 12px;
   margin: 5px;
