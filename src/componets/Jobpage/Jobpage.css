@@ -1,7 +1,7 @@
 body{
   background-color: rgb(217, 240, 246);
-  height: 500px;
-  margin: 0px;
+   height: 500px;
+  
 }
 .heading{
     display: inline-flex;
@@ -19,7 +19,7 @@ box-shadow: 0px 2px lightgray;
   height: 120px;
   margin: auto;
   margin-top: 20px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   display: flex;
   padding: 5px;
   justify-content:space-between;
@@ -55,7 +55,8 @@ word-wrap: break-word;
 }
 .skill-chip{
   background-color: #d9ece7;
-  font-size: 15px;
+  font-size: 15
+  px;
   border-radius: 5%;
   padding: 12px;
   margin: 5px;

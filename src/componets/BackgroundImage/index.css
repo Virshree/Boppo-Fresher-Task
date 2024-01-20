@@ -1,15 +1,53 @@
 .backg-conatiner{
-    width: 100%;
+
+ 
+
+   width: 100%;
     height: 140px;
     background-image: url("https://img.freepik.com/free-vector/watercolor-emerald-background_23-2150238649.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-  padding-left: 23px ;
-  position: static;
-  padding: 23px 12px 34px ;
-
-
+     z-index:1;  
+     
+      position:absolute;
     
 
-    
+
+}
+.icon{
+  /* display: block; */
+/* top  : 20px; */
+}
+.search-text{
+  
+  background-color: rgb(248, 255, 255);
+  width: 1290px;
+  height: 85px;
+
+  box-shadow: 0px 2px lightgray;
+  border: 1px solid gray;
+
+  border-radius: 8px;
+  margin-top: 95px;
+  margin-left: 268px;
+  border: 0px solid white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+input {border:0;outline:0;background-color: rgb(248, 255, 255);  width: 1185px;  font-size: 32px;
+  height: 60px;
+
+}
+input:focus {outline:none!important;}
+/* .reset-container{
+
+  position:absolute;
+} */
+.reset-container{
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 20px;
+  color: aquamarine;
 }
